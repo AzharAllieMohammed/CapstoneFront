@@ -42,6 +42,7 @@ public class LoginView extends Div {
             if (isValidEmail(email) && isValidPassword(password)) {
                 if (password.equals("Password")) {
                     Notification.show("Login Successful!");
+                    getUI().ifPresent(ui -> ui.navigate(MenuView.class));
                 } else {
                     Notification.show("Invalid password.");
                 }

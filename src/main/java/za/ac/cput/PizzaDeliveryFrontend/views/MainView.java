@@ -6,7 +6,7 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 
 import za.ac.cput.PizzaDeliveryFrontend.domain.Employee;
-
+/*
 @Route("/home") // map view to the root
 class MainView extends VerticalLayout {
     //private EmployeeController employeeController;
@@ -16,4 +16,4 @@ class MainView extends VerticalLayout {
         //grid.setItems(employeeController.getall());
         add(grid);
     }
-}
+}*/

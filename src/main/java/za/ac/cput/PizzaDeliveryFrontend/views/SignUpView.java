@@ -68,7 +68,7 @@ public class SignUpView extends VerticalLayout {
         btnSubmit.addClickListener(e -> {
             try {
 
-                getUI().ifPresent(ui -> ui.navigate(HomeView.class));
+                getUI().ifPresent(ui -> ui.navigate(MenuView.class));
 
             } catch (Exception exception) {
                 Notification.show(exception.getMessage());
